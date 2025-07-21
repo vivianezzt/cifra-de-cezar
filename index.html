@@ -15,7 +15,26 @@
 </head>
 
 <body>
-
+    <!--1º Adicionar a imagem da pasta assets -->
+    <img class="imagem" src="assets/cifra-de-cesar.png" />
+    <!--2º Iniciar título (H1) do nosso projeto com uma classe "destaque" para uma formatação específica ao título-->
+    <h1 class="destaque">Criptografe a sua mensagem:</h1>
+    <!--3º Adicionar duas divś ao projeto para os campos "Digite a sua mensagem e Alfabeto " com uma label que tras um ID "para-criptografar"-->
+    <div class="campo texto">
+        <label for="para-criptografar">Digite a sua mensagem:</label>
+        <input type="text" class="entrada" id="para-criptografar">
+    </div>
+    <!--3º uma div com os elementos label (com for "deslocamento" E id "") e select com ID "deslocamento" e classe "entrada"-->
+    <div class="campo seletor">
+        <label for="deslocamento">Mudar o inicio do alfabeto para:</label>
+        <select id="deslocamento" class="entrada">
+            <!--usar javascript para adicionar o alfabeto-->
+            <option></option>
+        </select>
+    </div>
+    <!--Botão para criptografar, p vazio com a classe "invisivel" e ID "resposta"-->
+    <button id="botao" class="botao">Criptografar</button>
+    <p class="invisivel" id="resposta"></p>
     <script src="script.js"></script>
 </body>
 
