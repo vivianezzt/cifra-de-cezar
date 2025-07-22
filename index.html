@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
     <title>Cifra de César</title>
 </head>
@@ -28,13 +28,12 @@
     <div class="campo seletor">
         <label for="deslocamento">Mudar o inicio do alfabeto para:</label>
         <select id="deslocamento" class="entrada">
-            <!--usar javascript para adicionar o alfabeto-->
-            <option></option>
+            <!--usar javascript para adicionar o alfabeto no arquivo script.js-->
         </select>
     </div>
     <!--Botão para criptografar, p vazio com a classe "invisivel" e ID "resposta"-->
     <button id="botao" class="botao">Criptografar</button>
-    <p class="invisivel" id="resposta"></p>
+    <p class="invisivel" id="resposta">teste</p>
     <script src="script.js"></script>
 </body>
 
