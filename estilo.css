@@ -1,78 +1,76 @@
-/* Estilizando o projeto */
-
-/* 1º criar o seletor root e criar as variaveis para tamanho da fonte, cor dafonte, raio da borda: */
-:root{
+:root {
     --tamanho-da-fonte: 1.4rem;
     --cor-fonte: white;
     --raio-borda: 5px;
 }
+
 body {
-  /* 2º definir altura, orientação */
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  /* 3º Fundo da aplicação com gradiente simples */
-  background: #108dc7;
-  background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);
-  background: linear-gradient(to right, #ef8e38, #108dc7);
+    background: #108dc7;
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);
+    background: linear-gradient(to right, #ef8e38, #108dc7);
 
-  font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
-/* 4º customizar a classe destaque de acordo com os valores: font-weight: 900 e size 2.5rem */
-.destaque{
-  font-weight: 900;
-  font-size: 2.5rem;
+
+.destaque {
+    font-weight: 900;
+    font-size: 2.5rem;
 }
-/* 5º Alterar imagem definindo um tamanho de 10 px de H e borda de 50% */
+
 .imagem {
-  height: 180px;
-  border-radius: 50%;
+    height: 180px;
+    border-radius: 50%;
 }
-/* 6º aplicar estilos nas divs nas classes "campo" com display, alinhamento dos items no centro, tamanho da fonte usando o root margin-bottom*/
 
-.campo{
-  display: flex;
-  align-items: center;
-  font-size: var(--tamanho-da-fonte)
-  margin-bottom: 10px
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--tamanho-da-fonte);
+    margin-bottom: 10px;
 }
-/* 7º Aplicando estilo a classe "entrada" */
+
 .entrada {
-  outline: nome;
-  padding: 5px 10px;
-  margin: 2px 20px;
-  font-size: var(--tamanho-da-fonte);
-  color: var(--cor-fonte);
-  border-radius: var(--raio-borda);
-  border: solid 2px #ccc;
-  background-color: #0005;
+    outline: none;
+    padding: 5px 10px;
+    margin: 2px 20px;
+    font-size: var(--tamanho-da-fonte);
+    color: var(--cor-fonte);
+    border-radius: var(--raio-borda);
+    border: solid 2px #ccc;
+    background-color: #0005;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
 }
 
-/* 8º estilizando o botão */
-.botao{
-  background-color: rgb(91,89,89);
-  margin-top: 20px;
-  padding: 10px 35px;
-  border-radius: 200px;
-  border: 1px solid #fff;
-  color: var(--cor-fonte);
-  font-size: var(--tamanho-fonte)
-}
-/* 9º estilizar a classe invisivel apenas com display none*/
-.invisivel{
-  display: none;
+.botao {
+    background-color: rgb(91, 89, 89);
+    margin-top: 20px;
+    padding: 10px 35px;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    color: var(--cor-fonte);
+    font-size: var(--tamanho-da-fonte);
 }
 
-/* 10 estilizar o ID resposta */
+.invisivel {
+    display: none;
+}
+
 #resposta {
-  font-weight: 700;
-  font-size: var(--tamanho-fonte);
-  padding: 15px 30px;
-  border: solid 1px #0009;
-  backgroud-color: #0005;
-  border-radius: var(--raio-borda)
+    font-weight: 700;
+    font-size: var(--tamanho-da-fonte);
+    padding: 15px 30px;
+    border: solid 1px #0009;
+    background-color: #0005;
+    border-radius: var(--raio-borda);
+    margin-top: 15px;
 }
-
