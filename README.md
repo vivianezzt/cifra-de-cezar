@@ -37,5 +37,4 @@ node cifra.js
 ## ✍️ Autora
 
 - [Viviane Aguiar](https://github.com/vivianezzt)
-- [Viviane Aguiar](https://linkedin.com/vivianezzt)
-- [Viviane Aguiar](https://instagram.com/vivianezzt)
+
